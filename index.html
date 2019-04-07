@@ -12,17 +12,30 @@
 </head>
 <body>
     <main class="main">
-        <h1>Accumulation Calculator - using reduce</h1>
+        <h1>Accumulation Calculator - using .reduce</h1>
         <section class="input-set">
-            <input type="text" class="input">
-            <input class="submit" type="submit"></input>
-            <p class="markup">My total with reduce is now: <span class="sum"></span></p>
+            <input type="text" id="input">
+            <input id="submit" type="submit"></input>
+            <p class="markup">My total with the number you input is now: <span id="sum"></span></p>
         </section>
-        <h1>Add-Me-by-10 Calculator - using .map</h1>
+        <h1>Add-Me-by-TYPE-YOUR-NUMBER Calculator - using .map</h1>
         <section class="input-set">
-            <input type="text" class="input">
-            <input class="submit" type="submit"></input>
-            <p class="markup">My result with adding by 10 is: <span class="map"></span></p>
+            <input type="text" id="input2">
+            <input id="submit2" type="submit"></input>
+            <p class="markup">My numbers with addition of the number you input is now: <span id="sum2"></span></p>
+        </section>
+
+        <h1>.filter and show all numbers above 3 including the number you inputted</h1>
+        <section class="input-set">
+            <input type="text" id="input3">
+            <input id="submit3" type="submit"></input>
+            <p class="markup">My result: <span id="sum3"></span></p>
+        </section>
+        <h1>.forEach and show all numbers including the number you inputted</h1>
+        <section class="input-set">
+            <input type="text" id="input4">
+            <input id="submit4" type="submit"></input>
+            <p class="markup">My result: <span id="sum4"></span></p>
         </section>
     </main>
 </body>
