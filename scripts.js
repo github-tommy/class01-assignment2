@@ -1,3 +1,5 @@
+
+
 // jQuery Doc Ready
 $(function () {
     // Set up some data and variables
@@ -72,8 +74,9 @@ $(function () {
             data.push(num);
             // Use reduce to convert our array of numbers into a single value - the sum of all of the numbers
             const sum = data.filter((x) => x > 3);
+            const sumTimesTen = sum.map((x) => x *10);
             // Add our new total to the page
-            resultSum.text(sum);
+            resultSum.text(sumTimesTen);
             // Reset the input value to an empty string
             input.val('');
         }
@@ -98,13 +101,13 @@ $(function () {
 
             data.push(num);
 
+            let sum = data.map((x) => x / 10);
+
             data.forEach(function(value) {
-                resultSum.text(data)
+                resultSum.text(sum)
             });
 
             input.val('');
         }
     });
 });
-
-
