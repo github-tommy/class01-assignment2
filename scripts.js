@@ -1,7 +1,7 @@
 // jQuery Doc Ready
 $(function () {
     // Set up some data and variables
-    const data = [1, 2, 3, 4],
+    const data = [1, 2, 3, 4,-10],
         input = $('#input'),
         submit = $('#submit'),
         resultSum = $('#sum');
@@ -106,3 +106,5 @@ $(function () {
         }
     });
 });
+
+
