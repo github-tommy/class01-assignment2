@@ -12,30 +12,33 @@
 </head>
 <body>
     <main class="main">
-        <h1>Accumulation Calculator - Input a number in the box and click submit, followed by another number and submit; and show the accumulated total : using .reduce</h1>
+        <h1>Accumulation Calculator - using .reduce</h1>
+        <p class="instruction">Instruction: Input a number in the box and click submit. A result showing your new total will be displayed below the box. You may input another number and click submit. The new total will be updated with the accumulated number accordingly as you input another number in the box, etc. </p>
         <section class="input-set">
             <input type="number" id="input">
             <input id="submit" type="submit"></input>
-            <p class="markup">My total with the number you input is now: <span id="sum"></span></p>
+            <h3 class="markup">My new total is: <span id="sum"></span></h3>
         </section>
-        <h1>Add-Me-Calculator - Input a number which will be added to the initial set of numbers 1, 2, 3, 4: using .map</h1>
+        <h1>Add-Me-Calculator - using .map</h1>
+        <p class="instruction">Instruction: Input a number which will be added to the initial set of numbers 1, 2, 3, 4.</p>
         <section class="input-set">
             <input type="text" id="input2">
             <input id="submit2" type="submit"></input>
-            <p class="markup">The new numbers generated are: <span id="sum2"></span></p>
+            <h3 class="markup">The new numbers generated are: <span id="sum2"></span></h3>
         </section>
-
-        <h1>Filtering Calculator: Input a number and show all numbers > 3 and multiply the number(s) by 10 (Initial numbers is 1, 2, 3, 4): using both .filter and .map</h1>
+        <h1>Filtering Calculator - using both .filter and .map</h1>
+            <p class="instruction">Instruction: Input a number and show all numbers > 3 and multiply the number(s) by 10 (Initial numbers is 1, 2, 3, 4).</p>
         <section class="input-set">
             <input type="text" id="input3">
             <input id="submit3" type="submit"></input>
-            <p class="markup">The numbers > 3: <span id="sum3"></span></p>
+            <h3 class="markup">The new number(s) generated is(are): <span id="sum3"></span></h3>
         </section>
-        <h1>Display Calculator: Input a number in the box below and then show all numbers after being divided by 10 (Initial numbers is 1, 2, 3, 4): using both .map and .forEach</h1>
+        <h1>Display Calculator - using both .map and .forEach</h1>
+        <p class="instruction">Instruction: Input a number in the box below and then show all numbers after being divided by 10 (Initial numbers is 1, 2, 3, 4).</p>
         <section class="input-set">
             <input type="number" id="input4">
             <input id="submit4" type="submit"></input>
-            <p class="markup">The new set of numbers: <span id="sum4"></span></p>
+            <h3 class="markup">The new numbers generated are: <span id="sum4"></span></h3>
         </section>
     </main>
 </body>
